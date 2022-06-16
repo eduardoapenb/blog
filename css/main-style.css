@@ -19,6 +19,11 @@ a{
     color: black;
 }
 
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
+
 header{
     width: 100%;
     height: 14rem;
@@ -91,9 +96,6 @@ nav .profile-link a{
 }
 
 main .main-title{
-  
-    
-    
    font-size: 4rem;
    color: white;
    letter-spacing: 10px;
@@ -118,7 +120,6 @@ main .main-container-button a {
 
 .blogs-main{
     display: grid;
-
 }
 
 .blogs-news-container{
@@ -133,20 +134,119 @@ main .main-container-button a {
 
 }
 
+.blogs-main-new h3{
+    font-size: 2.5rem;
+    margin: .5rem 0;
+}
+
 .blogs-new-img{
     grid-column: 1;
 }
 
 .blogs-new-img img{
-
+ width: 65%;
 }
 
 .blogs-new-info{
     grid-column: 2;
+    align-self: center;
 
 }
 
 .blogs-new-info p{
+    font-size: 1.5rem;
     margin-bottom: 3.5rem;
 }
+
+.blogs-post-container{
+    padding:  0 5rem 4rem;
+}
+
+.blogs-post-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.blogs-button{
+    border: 1px solid black;
+    padding: 1rem 1.5rem ;
+    font-size: 1.2rem;
+}
+
+.blogs-button:hover {
+	border: 1px solid white;
+	color: white;
+	background-color: #48CFAD;
+}
+
+
+.blogs-post-container .post-container{
+    display: inline-block;
+    padding-left: 1rem;
+    margin-bottom:100px;
+    width: 300px;
+}
+
+.blogs-post-container .post-container p{
+    margin-bottom: 15px;
+}
+
+
+.blogs-post-container .post-container img{
+    width: 100%;
+}
+
+footer{
+   width: 100%;
+   height: 8rem;
+   background-color: #22272d; 
+   border-top: 35px solid #47cfac;
+}
+
+footer p{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.blogpost-img-container, .blogpost-main-container{
+    padding: 0 50px 40px ;
+}
+
+.blogpost-img-container img{
+    width: 100%;
+}
+
+.blogpost-main-container h3{
+ border-bottom: 1px solid #cdd2da;
+ padding-bottom: 10px;
+ font-size: 1.5rem;
+ margin-bottom: 10px;
+}
+.blogpost-main-container article h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.blogpost-main-container article p{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
